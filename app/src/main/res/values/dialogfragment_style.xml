@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="dialogfragment_animate">
+        <item name="android:windowEnterAnimation">@anim/dialogfragment_enter_translate</item>
+        <item name="android:windowExitAnimation">@anim/dialogfragment_exit_translate</item>
+    </style>
+
+    <style name="dialogfragment_animate_scale">
+        <item name="android:windowEnterAnimation">@anim/dialogfragment_enter_scale</item>
+        <item name="android:windowExitAnimation">@anim/dialogfragment_exit_scale</item>
+    </style>
+
+</resources>

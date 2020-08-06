@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.crazyhuskar.myandroidsdk.view.MultipleStatusView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/multiplestatusview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:emptyView="@layout/multiple_empty_view"
+    app:errorView="@layout/multiple_error_view"
+    app:loadingView="@layout/multiple_loading_view"
+    app:noNetworkView="@layout/multiple_no_network_view">
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/smartrefreshlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="never" />
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    <com.arlib.floatingsearchview.FloatingSearchView
+        android:id="@+id/floating_search_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:floatingSearch_leftActionMode="showSearch"
+        app:floatingSearch_searchHint="搜索" />
+</com.crazyhuskar.myandroidsdk.view.MultipleStatusView>

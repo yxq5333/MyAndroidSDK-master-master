@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bigkoo:svprogresshud:1.0.6@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/svprogresshud-1.0.6.aar/63c6ac8bcf9fb2b308458944385e5339/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/svprogresshud-1.0.6.aar/63c6ac8bcf9fb2b308458944385e5339/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/svprogresshud-1.0.6.aar/63c6ac8bcf9fb2b308458944385e5339/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bigkoo/svprogresshud/1.0.6/c790d2c36041620fe9e3c992a7119d476583d2b4/svprogresshud-1.0.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bigkoo/svprogresshud/1.0.6/c7104ec4b26068bdb067f2d8edc413b7302b0e61/svprogresshud-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

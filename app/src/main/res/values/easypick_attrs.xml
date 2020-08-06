@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EasyPickerView">
+        <!--支持以下几个属性：-->
+        <!-- - epvTextSize：字符的大小-->
+        <!-- - epvTextColor：字符的颜色-->
+        <!-- - epvTextPadding：字符的间距-->
+        <!-- - epvTextMaxScale：中间字符缩放的最大值-->
+        <!-- - epvTextMinAlpha：两端字符最小alpha值-->
+        <!-- - epvRecycleMode：是否为循环模式-->
+        <!-- - epvMaxShowNum：显示多少个字符-->
+        <attr name="epvTextSize" format="dimension" />
+        <attr name="epvTextColor" format="color" />
+        <attr name="epvTextPadding" format="dimension" />
+        <attr name="epvTextMaxScale" format="float" />
+        <attr name="epvTextMinAlpha" format="float" />
+        <attr name="epvRecycleMode" format="boolean" />
+        <attr name="epvMaxShowNum" format="integer" />
+    </declare-styleable>
+</resources>

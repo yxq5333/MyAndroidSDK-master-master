@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="calender_select">#3F51B5</color>
+    <color name="calender_today">#3F51B5</color>
+</resources>
