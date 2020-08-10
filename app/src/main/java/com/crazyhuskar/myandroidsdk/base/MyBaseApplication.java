@@ -18,7 +18,7 @@ import static com.crazyhuskar.myandroidsdk.SystemConfig.isDebug;
  * @date 2018-10-25
  */
 
-public class MyBaseApplication extends Application {
+public class MyBaseApplication extends Application implements IBaseApplication{
     private static MyBaseApplication myBaseApplication;
     private ArrayList<AppCompatActivity> activityAllList = new ArrayList<>();
 
@@ -32,9 +32,14 @@ public class MyBaseApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        myBaseApplication = bindApplication();
         isDebug = MyUtilAppInfo.isDebug(this);
         MultiDex.install(this);
         Logger.addLogAdapter(new AndroidLogAdapter());
     }
 
+    @Override
+    public MyBaseApplication bindApplication() {
+        return this;
+    }
 }
