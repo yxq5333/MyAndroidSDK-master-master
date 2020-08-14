@@ -1,7 +1,11 @@
 package com.crazyhuskar.myandroidsdk;
 
 
+import com.crazyhuskar.myandroidsdk.base.MyBaseApplication;
+import com.crazyhuskar.myandroidsdk.util.MyUtilAppInfo;
 import com.crazyhuskar.myandroidsdk.util.MyUtilSDCard;
+
+import kotlin.jvm.JvmField;
 
 /**
  * 系统常量
@@ -15,6 +19,12 @@ public class SystemConfig {
 
 
     public static boolean isDebug = true;
+    /**
+     * 是否是开发模式 true:debug模式 ;false:release模式
+     */
+//    @JvmField
+//    var IS_DEBUG_MODEL = false
+    public static boolean  IS_DEBUG_MODEL = MyUtilAppInfo.isDebug(MyBaseApplication.getInstance().getApplicationContext());
     /**
      * SD卡根目录
      */
@@ -64,4 +74,18 @@ public class SystemConfig {
      * 倒计时长 60秒
      */
     public static final int TIME_COUNT = 60000;
+    /**
+     * xUtils超时重连时间数 单位：ms
+     */
+    public static final int  TIME_OUT = 30 * 1000;
+
+    // /**** 本地数据库 ****/
+    /**
+     * 当前数据库DB的版本 初始是2
+     */
+    public static int DB_VERSION = 2;
+    /**
+     * 数据库名称
+     */
+    public static String DATABASE_NAME = "data_base";
 }

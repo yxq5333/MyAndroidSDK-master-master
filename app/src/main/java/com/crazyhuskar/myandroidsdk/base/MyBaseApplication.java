@@ -24,7 +24,12 @@ public class MyBaseApplication extends Application implements IBaseApplication{
 
     public static MyBaseApplication getInstance() {
         if (myBaseApplication == null) {
-            myBaseApplication = new MyBaseApplication();
+            //同步区块里面的代码只有在第一次才会执行
+            synchronized (MyBaseApplication.class){
+                if(myBaseApplication == null){
+                    myBaseApplication = new MyBaseApplication();
+                }
+            }
         }
         return myBaseApplication;
     }

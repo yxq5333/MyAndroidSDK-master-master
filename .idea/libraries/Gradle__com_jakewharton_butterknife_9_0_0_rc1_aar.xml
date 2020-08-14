@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.jakewharton:butterknife:9.0.0-rc1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-butterknife-9.0.0-rc1.aar/4a24085dcdb356864eb56fa6d723f279/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-butterknife-9.0.0-rc1.aar/4a24085dcdb356864eb56fa6d723f279/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-butterknife-9.0.0-rc1.aar/4a24085dcdb356864eb56fa6d723f279/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-butterknife-9.0.0-rc1.aar/019bf467dbfca1ab48beb88075ceb499/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-butterknife-9.0.0-rc1.aar/019bf467dbfca1ab48beb88075ceb499/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-butterknife-9.0.0-rc1.aar/019bf467dbfca1ab48beb88075ceb499/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

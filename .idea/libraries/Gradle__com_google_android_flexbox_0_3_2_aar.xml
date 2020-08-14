@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.google.android:flexbox:0.3.2@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-flexbox-0.3.2.aar/566f37f4c053a611b1c5557f6ff13d36/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-flexbox-0.3.2.aar/5d89f8ffccb5eb80e298221190f4e6e5/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-flexbox-0.3.2.aar/566f37f4c053a611b1c5557f6ff13d36/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-flexbox-0.3.2.aar/566f37f4c053a611b1c5557f6ff13d36/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-flexbox-0.3.2.aar/566f37f4c053a611b1c5557f6ff13d36/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-flexbox-0.3.2.aar/5d89f8ffccb5eb80e298221190f4e6e5/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-flexbox-0.3.2.aar/5d89f8ffccb5eb80e298221190f4e6e5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/jetified-flexbox-0.3.2.aar/5d89f8ffccb5eb80e298221190f4e6e5/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
